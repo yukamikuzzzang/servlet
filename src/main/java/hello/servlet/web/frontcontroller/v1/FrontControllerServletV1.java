@@ -14,7 +14,7 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-@WebServlet(name = "frontC디ontrollerServletV1", urlPatterns = "/front-controller/v1/*")   //v1 렉토리 하위 모든 폴더에 접근가능
+@WebServlet(name = "frontControllerServletV1", urlPatterns = "/front-controller/v1/*")   //v1 렉토리 하위 모든 폴더에 접근가능
 public class FrontControllerServletV1 extends HttpServlet {
 
     private Map<String, ControllerV1> controllerMap = new HashMap<>(); //매핑 정보, 어떤 URL을 호출하면 ControllerV1을 호출해!
